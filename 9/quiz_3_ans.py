@@ -54,7 +54,6 @@ output_base_10_representation = 0
 
 # INSERT YOUR CODE HERE
 
-largest_multibase_num = [x - 1 for x in multibase]
 
 
 def multibase2tenbase(multibase_list):
@@ -81,7 +80,7 @@ def tenbase2multibase(tenbase_num):
         return 0
     return int(multibase_str)
 
-
+largest_multibase_num = [x - 1 for x in multibase]
 max_number = multibase2tenbase(largest_multibase_num)
 
 # 判断第一个数字是否有效
